@@ -1,0 +1,12 @@
+POST http://localhost:3000/items
+Content-Type: application/json
+
+{
+    "title": "Sonic",
+    "price": 6.99,
+    "image": "sonic.jpg"
+}
+
+###
+
+GET http://localhost:3000/items
